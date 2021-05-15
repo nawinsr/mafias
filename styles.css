@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    text-align: center;
+    background-color: #9FE6A0!important;
+  
+        /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+      
+}
+button{
+    margin-top: 30px!important;
+}
+h1{
+    margin-top: 50px!important;
+ color: white!important;
+}
+label{
+    color: white;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: 50vh 50vh;
+    text-align: center;
+    background-color: #9FE6A0!important;
+  
+        /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+      
+}
+.red{
+    color: red!important;
+}
+audio{
+    display: none;
+}
