@@ -112,11 +112,7 @@ function red(){
     window.location.replace("https://nawinsr.github.io/mafias/spinner.html")
 }
 function spinner() {
-    var n=0
-    if(n==0){
-        reload()
-        n++
-    }
+ 
     const f = window.localStorage.getItem("v")
     if (f) {
         window.location.replace("https://nawinsr.github.io/mafias/spinner.html")    }
