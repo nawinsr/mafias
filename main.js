@@ -99,14 +99,17 @@ function addFields(n) {
 
             }
         }
-        alert("fhrwfrwi")
-        reload()
+        
 
     }
 }
 function reload() {
    
     window.location.reload()
+    red()
+}
+function red(){
+    window.location.replace("https://nawinsr.github.io/mafias/spinner.html")
 }
 function spinner() {
     var n=0
@@ -116,21 +119,13 @@ function spinner() {
     }
     const f = window.localStorage.getItem("v")
     if (f) {
-        return
-    }
+        window.location.replace("https://nawinsr.github.io/mafias/spinner.html")    }
     else {
         alert('add palyers first')
     }
 }
 
-function spinnerExist() {
-    var roles = window.localStorage.getItem("v")
-    if (roles) {
-        var an = document.getElementById("yes")
-        an.setAttribute("href", "./spinner.html")
-    }
 
-}
 var y;
 var items;
 function turn() {
@@ -200,4 +195,8 @@ function mf() {
 function PlaySound() {
     var sound = document.getElementById("audio");
     sound.play()
+}
+
+function back(){
+    window.location.replace('https://nawinsr.github.io/mafias/')
 }
