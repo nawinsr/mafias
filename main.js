@@ -114,6 +114,7 @@ function red(){
 function spinner() {
  
     const f = window.localStorage.getItem("v")
+    console.log(f)
     if (f) {
         window.location.replace("https://nawinsr.github.io/mafias/spinner.html")    }
     else {
