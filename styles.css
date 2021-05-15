@@ -1,35 +1,55 @@
 body{
-    display: grid;
-    grid-template-rows: 30% 70%;
     text-align: center;
-    background-color: #9FE6A0!important;
-  
-        /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
-      
-}
-button{
-    margin-top: 30px!important;
+    margin: 0px;
+    top: 0%;
+    /* position: relative; */
 }
 h1{
-    margin-top: 50px!important;
- color: white!important;
+   font-size: 937.5%;
+   font-family: 'Sacramento', cursive,serif;
+    width: 700px;
+    margin: 0px auto 0px auto;
+    position: relative;
 }
-label{
-    color: white;
+.st{
+    font-size: 187.5%;
+    width: 20%;
+    top: 290px;
+    left: 38%;
+    position: absolute;
+    font-family: 'Girassol', cursive,serif;
+}
+.top{
+    background-color: #9fe6a0;
+    /* position: absolute; */
+    width: 100%;
+    padding-top: 150px;
+    /* padding-bottom: 360px; */
 }
 
-.body{
-    display: grid;
-    grid-template-rows: 50vh 50vh;
-    text-align: center;
-    background-color: #9FE6A0!important;
-  
-        /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
-      
+.sun{
+    position: absolute;
+    width: 300px;
+    margin-right: 200px;
+    margin-top: 20px;
+    top: 270px;
+    left: 55rem;
 }
-.red{
-    color: red!important;
+.tree{
+    position: absolute;
+    width: 500px;
+    top: 20%;
+    margin: 0px;
+    right: 0px;
+    height: 600px;    
 }
-audio{
-    display: none;
+.rc{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+}
+.lc{
+    position: absolute;
+    top: 40%;
+    left: 7%;
 }
